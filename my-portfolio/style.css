@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Londrina+Shadow)l;
+
+
+
+body {
+	font-family: helvetica, sans-serif;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+    url(images/backdrop.jpg);
+    background-size: cover;
+}
+
+h1, h2 {
+	color: #edf6f9;
+	padding: 0 0 75px;
+	
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 22px;
+	padding: 50px;
+	color: #edf6f9;
+}
+
+article > p {
+	color: lightgrey;
+	/* background: black;*/
+	 max-width: 700px;
+	 text-align: center;
+	 font-size: 22px;
+	 font-family: 'Londrina Shadow', cursive;
+	 padding: 0 0 25px;
+}
+
+h1, h2, p, h3, ul, ol, li {
+	max-width: 400px;
+	font-family: 'Londrina Shadow', cursive;
+    text-align: center;	
+	margin: auto;
+}
+
+p {
+	color: rgb(255,255,255);
+	font-family:  sans-serif;   
+    text-align: justify;
+    
+}
+
+hr {
+	background: hsla(280, 4%, 17%, 1);
+	background: linear-gradient(90deg, hsla(280, 4%, 17%, 1) 30%, hsla(158, 10%, 37%, 1) 100%);
+	background: -moz-linear-gradient(90deg, hsla(280, 4%, 17%, 1) 30%, hsla(158, 10%, 37%, 1) 100%);
+	background: -webkit-linear-gradient(90deg, hsla(280, 4%, 17%, 1) 30%, hsla(158, 10%, 37%, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2b292c", endColorstr="#546760", GradientType=1 );
+	padding: 3px;
+	margin: 0;
+}
+
+ul, ol, li {
+	color: lightgrey;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Londrina Shadow', cursive;
+	max-width: 400px;   
+	list-style-position: inside;
+	padding: 0 0 15px;
+}
+
+main > header > img {
+	float: right;
+	border: 8px solid #ddd;
+	border-radius: 5px;
+}
+
+	
+
+
+main > header > nav > ul > a {
+	color: lightgrey;
+}
+
+footer > p {
+	text-align: center;
+	padding: 0 0 20px;
+}
+
